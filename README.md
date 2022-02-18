@@ -1,2 +1,3 @@
 # bb_exporter
-Prometheus Exporter for the BBox router.
+
+bb_exporter est un Exporter Prometheus pour la Box fibre de Bouygues Telecom.

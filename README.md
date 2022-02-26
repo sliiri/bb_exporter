@@ -12,4 +12,6 @@ Il a été développé en .Net 6 et est compatible avec les plateformes :
 
 Une fois l'exporter installé, configuré et intégré à Prometheus, les graphiques ci-dessous peuvent être créés dans Grafana :
 
-![Dashboard Grafana](https://github.com/sliiri/bb_exporter/blob/main/assets/img/screenshot_BBox%20Exporter_Grafana.png "Dashboard Grafana")
+![Dashboard Grafana](https://raw.githubusercontent.com/sliiri/bb_exporter/main/assets/img/screenshot_BBox_Exporter_Grafana.png "Dashboard Grafana")
+
+Télécharger le fichier JSON du dashboard ci-dessus : https://raw.githubusercontent.com/sliiri/bb_exporter/main/assets/grafana/BBox_Exporter.json

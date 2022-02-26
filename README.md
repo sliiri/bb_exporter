@@ -1,6 +1,6 @@
 # bb_exporter
 
-bb_exporter est un Exporter Prometheus pour la Box fibre de Bouygues Telecom.
+bb_exporter est un [Exporter](https://prometheus.io/docs/instrumenting/exporters/) [Prometheus](https://prometheus.io) pour la [Box fibre Ultym de Bouygues Telecom](https://www.bouyguestelecom.fr/offres-internet/bbox-ultym).
 
 Il a été développé en .Net 6 et est compatible avec les plateformes :
 - Linux x64 (testé)

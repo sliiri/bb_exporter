@@ -9,3 +9,7 @@ Il a été développé en .Net 6 et est compatible avec les plateformes :
 - Win x86
 - Win x64
 - OSX x64
+
+Une fois l'exporter installé, configuré et intégré à Prometheus, les graphiques ci-dessous peuvent être créés dans Grafana :
+
+![Dashboard Grafana](https://github.com/sliiri/bb_exporter/blob/main/assets/screenshot_BBox%20Exporter_Grafana.png "Dashboard Grafana")

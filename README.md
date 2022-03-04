@@ -15,3 +15,29 @@ Une fois l'exporter installé, configuré et intégré à Prometheus, les graphi
 ![Dashboard Grafana](https://raw.githubusercontent.com/sliiri/bb_exporter/main/assets/img/screenshot_BBox_Exporter_Grafana.png "Dashboard Grafana")
 
 Télécharger le fichier JSON du dashboard ci-dessus : https://raw.githubusercontent.com/sliiri/bb_exporter/main/assets/grafana/BBox_Exporter.json
+
+## Usage
+
+### Installation
+
+- Télécharger la release sourhaitée.
+- Editer le fichier de configuration appsettings.json.
+- Renseigner le mot de passe de connexion à l'interface de la BBox.
+- Vous pouvez ajuster l'URL de l'interface d'admin de la BBox ou le port d'écoute de l'exporter.
+
+```
+{
+    "BBoxAPIURL": "https://mabbox.bytel.fr",
+    "BBoxPassword": "MYPASS",
+    "BBoxAPIRefreshTime": 60,
+    "MetricsServerListeningPort": 9100
+}
+```
+
+### Exécution
+
+
+
+### Compilation
+
+TODO

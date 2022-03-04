@@ -36,8 +36,22 @@ Télécharger le fichier JSON du dashboard ci-dessus : https://raw.githubusercon
 
 ### Exécution
 
+Il suffit ensuite de lancer l'executable bb_exporter. Tout dépend de la plateforme.
 
+```
+chmod +x bb_exporter
+./bb_exporter sous Linux.
+bb_exporter.exe sous Windows.
+```
+
+[Sous Linux, il est possible d'utiliser systemd pour lancer l'application sous forme de service.](https://domoticproject.com/creating-raspberry-pi-service/)
+
+[C'est possible également sous Winodws (non testé).](https://docs.microsoft.com/fr-fr/troubleshoot/windows-client/deployment/create-user-defined-service)
 
 ### Compilation
 
-TODO
+- Pré-requis Linux : VS Code + Framework .Net 6.
+- Pré-requis Windows : VSCode ous Visual Studio + Framework .Net 6 (non testé).
+- Cloner le repo git.
+- Compilation : dotnet build
+- Compilation et publication : exécuter le script ./publish_all_platforms.sh

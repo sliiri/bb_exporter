@@ -20,7 +20,7 @@ Télécharger le fichier JSON du dashboard ci-dessus : https://raw.githubusercon
 
 ### Installation
 
-- Télécharger la release sourhaitée.
+- Télécharger la release souhaitée.
 - Editer le fichier de configuration appsettings.json.
 - Renseigner le mot de passe de connexion à l'interface de la BBox.
 - Vous pouvez ajuster l'URL de l'interface d'admin de la BBox ou le port d'écoute de l'exporter.

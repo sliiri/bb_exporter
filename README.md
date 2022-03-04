@@ -40,8 +40,9 @@ Il suffit ensuite de lancer l'executable bb_exporter. Tout dépend de la platefo
 
 ```
 chmod +x bb_exporter
-./bb_exporter sous Linux.
-bb_exporter.exe sous Windows.
+./bb_exporter
+
+bb_exporter.exe
 ```
 
 [Sous Linux, il est possible d'utiliser systemd pour lancer l'application sous forme de service.](https://domoticproject.com/creating-raspberry-pi-service/)

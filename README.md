@@ -20,7 +20,7 @@ Télécharger le fichier JSON du dashboard ci-dessus : https://raw.githubusercon
 
 ### Installation
 
-- Télécharger la release sourhaitée.
+- Télécharger la release souhaitée.
 - Editer le fichier de configuration appsettings.json.
 - Renseigner le mot de passe de connexion à l'interface de la BBox.
 - Vous pouvez ajuster l'URL de l'interface d'admin de la BBox ou le port d'écoute de l'exporter.
@@ -40,8 +40,9 @@ Il suffit ensuite de lancer l'executable bb_exporter. Tout dépend de la platefo
 
 ```
 chmod +x bb_exporter
-./bb_exporter sous Linux.
-bb_exporter.exe sous Windows.
+./bb_exporter
+
+bb_exporter.exe
 ```
 
 [Sous Linux, il est possible d'utiliser systemd pour lancer l'application sous forme de service.](https://domoticproject.com/creating-raspberry-pi-service/)
@@ -51,7 +52,7 @@ bb_exporter.exe sous Windows.
 ### Compilation
 
 - Pré-requis Linux : VS Code + Framework .Net 6.
-- Pré-requis Windows : VSCode ous Visual Studio + Framework .Net 6 (non testé).
+- Pré-requis Windows : VS Code ous Visual Studio + Framework .Net 6 (non testé).
 - Cloner le repo git.
 - Compilation : dotnet build
 - Compilation et publication : exécuter le script ./publish_all_platforms.sh

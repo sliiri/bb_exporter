@@ -52,7 +52,7 @@ bb_exporter.exe
 ### Compilation
 
 - Pré-requis Linux : VS Code + Framework .Net 6.
-- Pré-requis Windows : VS Code ous Visual Studio + Framework .Net 6 (non testé).
+- Pré-requis Windows : VS Code ou Visual Studio + Framework .Net 6 (non testé).
 - Cloner le repo git.
 - Compilation : dotnet build
 - Compilation et publication : exécuter le script ./publish_all_platforms.sh

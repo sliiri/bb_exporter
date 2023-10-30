@@ -10,6 +10,9 @@ namespace bb_exporter
 {
     public static class BBApiClient
     {
+        private const string _COMMITTEDAD_BUG = "committedas\":\n\t}";
+        private const string _COMMITTEDAD_PATCH = "committedas\":0\n\t}";
+
         private static CookieContainer _cookies = new CookieContainer();
         private static HttpClientHandler _handler = new HttpClientHandler();
         private static string _password = string.Empty;
@@ -50,6 +53,13 @@ namespace bb_exporter
             HttpClient client = new HttpClient(_handler);
             var response = client.GetAsync(string.Format("{0}{1}", _api_domain, route));
             string res = response.Result.Content.ReadAsStringAsync().Result;
+            // Patch : there is a bug in the API.
+            // The committedas property is empty
+            if (res.Contains(_COMMITTEDAD_BUG))
+            {
+                res = res.Replace(_COMMITTEDAD_BUG, _COMMITTEDAD_PATCH);
+            }
+            //
             return JsonConvert.DeserializeObject<List<T>>(res).FirstOrDefault();
         }
     }

@@ -21,6 +21,6 @@ namespace bb_exporter.model.mem
         public int total { get; set; }
         public int free { get; set; }
         public int cached { get; set; }
-        public int committedas { get; set; }
+        public string committedas { get; set; }
     }
 }

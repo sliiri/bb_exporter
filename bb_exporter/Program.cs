@@ -134,8 +134,11 @@ class Program
 	        _refreshDataTimer.Enabled = true;
             // Execute en Start
             _RefreshDataFromAPI(null, null);
-
-            Console.Read();
+            
+            while(true)
+            {
+                Thread.Sleep(1000);
+            }
         }
         catch(Exception ex)
         {

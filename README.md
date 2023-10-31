@@ -47,7 +47,7 @@ bb_exporter.exe
 
 [Sous Linux, il est possible d'utiliser systemd pour lancer l'application sous forme de service.](https://domoticproject.com/creating-raspberry-pi-service/)
 
-[C'est possible également sous Winodws (non testé).](https://docs.microsoft.com/fr-fr/troubleshoot/windows-client/deployment/create-user-defined-service)
+[C'est possible également sous Windows (non testé).](https://docs.microsoft.com/fr-fr/troubleshoot/windows-client/deployment/create-user-defined-service)
 
 ### Compilation
 
